@@ -1,4 +1,4 @@
-#This script is useful for adding users to a group based off of a attirbute in AD
+#This script is useful for adding users to a group based off of a attribute in AD
 
 # Set the name of the AD attribute to check and the value it should be
 $attributeName = "ATTIBUTENAME"
