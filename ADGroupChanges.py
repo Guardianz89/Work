@@ -14,7 +14,7 @@ attribute_value = "Padawan"
 # Set the name of the group to add the users to
 group_name = "all.Padawans"
 
- # Create an AD query to retrieve all users with the specified attribute value
+# Create an AD query to retrieve all users with the specified attribute value
 query = pyad.adquery.ADQuery()
 query.execute_query(
     attributes=["sAMAccountName", "userPrincipalName"],
